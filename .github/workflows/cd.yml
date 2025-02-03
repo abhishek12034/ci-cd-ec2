@@ -1,0 +1,9 @@
+name: Depolying to EC2 Machine
+
+on:
+  push:
+    branches: "main"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    echo: |
